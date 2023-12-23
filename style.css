@@ -1,0 +1,103 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@600&family=Poppins:wght@100;600&display=swap');
+
+
+body {
+    background: linear-gradient(to right, #8300cd, #b800c4);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    font-family: 'Libre Franklin', sans-serif;
+
+    font-weight: bolder;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 600px;
+    margin: 10% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    background: #fff;
+    border-radius: 40px;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+button {
+    background: hsl(var(--hue), 98%, 80%);
+    --hue: 163;
+    margin-top: 1em;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    color: black;
+    font: 600 1.2rem/1 "Nunito", sans-serif;
+    letter-spacing: .05em;
+    overflow: hidden;
+    min-height: 2.5em;
+    position: relative;
+    text-transform: lowercase;
+    width: 100%;
+}
+
+#id1 {
+    font-family: 'Libre Franklin', sans-serif;
+
+    color: #333;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    font-weight: bold;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#charCount {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 1rem;
+}
+
+#img {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    display: none;
+}
+
+@media screen and (min-width: 601px) {
+  
+    .wrapper {
+        margin: 10% auto;
+    }
+
+    button {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+#x {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#x a {
+    text-decoration: none;
+    color: #333; /* Adjust the color as needed */
+    font-size: 1.5rem;
+}
